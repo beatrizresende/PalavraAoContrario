@@ -11,10 +11,7 @@ public class PalavraAoContrario {
 
                 char[] arrayPalavra = palavra.toCharArray();
 
-                for(int i = arrayPalavra.length - 1; i <= arrayPalavra.length; i--) {
-                    if(i == -1){
-                        break;
-                    }
+                for(int i = arrayPalavra.length - 1; i > 0; i--) {
                     System.out.print(arrayPalavra[i]);
                 }
             }
